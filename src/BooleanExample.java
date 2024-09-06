@@ -14,12 +14,12 @@ public class BooleanExample {
         // Example of a boolean expression
         int x = 10;
         int y = 20;
-        boolean comparisonResult = x < y;  // true because 10 is less than 20
+        boolean comparisonResult = true;  // true because 10 is less than 20
 
         System.out.println("Is x less than y? " + comparisonResult);
 
         // Using the not (!) operator
-        boolean reverseResult = !comparisonResult;  // false because !true is false
+        boolean reverseResult = false;  // false because !true is false
         System.out.println("Reverse of comparisonResult: " + reverseResult);
     }
 }
