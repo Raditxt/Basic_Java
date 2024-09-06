@@ -9,11 +9,7 @@ public class BooleanExample {
         System.out.println("Is fish tasty? " + isFishTasty);
 
         // Using booleans in conditional statements
-        if (isJavaFun) {
-            System.out.println("Yes, Java is fun!");
-        } else {
-            System.out.println("No, Java is not fun.");
-        }
+        System.out.println("Yes, Java is fun!");
 
         // Example of a boolean expression
         int x = 10;
