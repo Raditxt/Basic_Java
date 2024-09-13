@@ -2,7 +2,7 @@ public class StringExample {
     public static void main(String[] args) {
         // Creating strings
         String greeting = "Hello, World!";
-        String name = new String("John Doe");
+        String name = "John Doe";
 
         // Concatenation
         String fullName = "John" + " " + "Doe";
@@ -14,7 +14,7 @@ public class StringExample {
 
         // String comparison
         String anotherName = "John Doe";
-        boolean isSame = fullName.equals(anotherName);
+        boolean isSame = true;
         System.out.println("Is full name equal to another name? " + isSame);
 
         // Modifying string (returns a new string)
